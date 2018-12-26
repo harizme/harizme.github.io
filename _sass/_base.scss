@@ -66,6 +66,10 @@ ul, ol, dl, figure,
     margin-bottom: $vertical-spacing-unit / 2;
 }
 
+p {
+    text-align: justify;
+}
+
 .alignright {
     float: right;
 }
