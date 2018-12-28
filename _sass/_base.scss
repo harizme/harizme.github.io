@@ -234,14 +234,6 @@ pre {
     font-size: 27px;
 }
 
-#home {
-    display: none;
-
-    @include media-query($on-palm) {
-        display: inline;
-    }
-}
-
 #sicko {
     display: inline;
 
