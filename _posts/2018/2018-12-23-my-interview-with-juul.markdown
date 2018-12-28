@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "my interview with juul"
 date: "2018-12-23 12:57"
 description: So today I got the news that all employees that work for Juul Labs will be getting a $1.2 million bonus because Marlboro invested in 35 percent into their company, which sucks because I was just about to work there after almost getting through their rigorous interview process. This investment makes Juul more valuable than SpaceX, which is hilarious because it shows nicotine addictions are way cooler than figuring out the universe we live in.

@@ -53,6 +53,35 @@
   }
 }
 
+.post-nav {
+  
+  line-height: $nav-height;
+
+  .page-link {
+    float: right;
+    line-height: $base-line-height;
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+  @include media-query($on-palm) {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    text-align: left;
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: line;
+    }
+  }
+}
+
 .header-bar {
   left: 0;
   top: 0;
@@ -129,10 +158,6 @@
 .post-list {
   margin: 0;
   list-style: none;
-
-  > li {
-    margin-bottom: $vertical-spacing-unit;
-  }
 }
 
 .contacticon {
@@ -153,12 +178,49 @@
 
 .post-title {
   font-size: 42px;
+  text-align: left;
   color: $theme-color;
   letter-spacing: -1px;
   line-height: 1;
   @include media-query($on-laptop) {
     font-size: 36px;
   }
+}
+
+.indexContainer {
+  display: flex;
+  flex-direction: row;
+  @include media-query($on-palm) {
+    display: block;
+  }
+}
+
+.indexImage {
+  margin-right: 30px;
+  @include media-query($on-palm) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-right: 0px;
+  }
+}
+
+.postListP {
+  margin:0px;
+} 
+
+.center {
+  margin: 0px auto;
+}
+
+
+.post-img {
+  display: inline-block;
+  height: 300px;
+}
+
+.thisImage {
+  height: 211px;
 }
 
 .post-content {

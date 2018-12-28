@@ -5,20 +5,26 @@ layout: default
 <div class="header-bar">
   <h1>*sickomode*</h1>
   <h2>healthy boy, sicko thoughts</h2>
-  <br/>
   <hr>
-  <br/>
 </div>
 
 
 <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+  {% for post in site.posts %}
+  <li>
+    <div class="indexContainer">
+      <div class="indexImage">
+        <img class="thisImage" src="{{ site.baseurl }}{{ post.img }}">
+      </div>
+      <div class="indexContent">
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
+        <p class="postListP">{{ post.description }}</p>
+        
+      </div>
+      
+    </div>
+    <hr />
+  </li>
+  {% endfor %}
 </ul>
