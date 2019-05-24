@@ -3,7 +3,7 @@ layout: "post"
 title: "I've been busy, relax"
 description: "but also continue to give me all of your undivided attention I really need it"
 date: "2019-05-23 00:06"
-img: /images/2019/5/truth_is.jpg
+img: /images/2019/5/to_do_list_2.jpg
 ---
 <img class="post-img" src="{{ site.baseurl}}/images/2019/3/busy_tweet.jpg">
 
