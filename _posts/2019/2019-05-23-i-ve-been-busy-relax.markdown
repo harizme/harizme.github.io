@@ -5,7 +5,8 @@ description: "but also continue to give me all of your undivided attention I rea
 date: "2019-05-23 00:06"
 img: /images/2019/5/bettercrop_todo.jpg
 ---
-<img class="post-img" src="{{ site.baseurl}}/images/2019/3/busy_tweet.jpg">
+
+<img class="post-img" src="{{ site.baseurl}}/images/2019/5/busy_tweet.jpg">
 
 As the tweet above shows, I've had a considerable amount of free time recently.
 
