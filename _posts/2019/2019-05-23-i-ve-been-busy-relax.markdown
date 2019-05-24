@@ -3,9 +3,8 @@ layout: "post"
 title: "I've been busy, relax"
 description: "but also continue to give me all of your undivided attention I really need it"
 date: "2019-05-23 00:06"
-img: /images/2019/2/Airpod Picture.jpg
+img: /images/2019/5/To_Do_List.jpg
 ---
-/images/2019/5/To_Do_List.jpg
 <img class="post-img" src="{{ site.baseurl}}/images/2019/3/busy_tweet.jpg">
 
 As the tweet above shows, I've had a considerable amount of free time recently.
