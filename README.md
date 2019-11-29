@@ -1,2 +1,2 @@
 # sickomode
-healthy boy, sicko thoughts
+Healthy boy, sicko thoughts
